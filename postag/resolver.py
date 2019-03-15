@@ -9,7 +9,6 @@ class Resolver:
 			success,result = r(name)
 			if success:
 				return result
-		return name
 
 class GlobalVarResolver:
 	def __init__(self,globs):
